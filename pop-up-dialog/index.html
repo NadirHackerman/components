@@ -4,20 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Pop-Up Dialog Window</title>  
-      <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://nadirbounoua.com/css/nadir.css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet"> 
 </head>
 
 <body>
-	<a href="#0" class="cd-popup-trigger btn-decision">Accept</a>
-	<div class="cd-popup" role="alert">
-		<div class="cd-popup-container">
-			<p>Are you sure you want to delete this element?</p>
-			<ul class="cd-buttons">
-				<li><a href="#0">Yes</a></li>
-				<li><a href="#0">No</a></li>
-			</ul>
-		</div> <!-- cd-popup-container -->
-	</div> <!-- cd-popup -->
+	<div class="container">
+		<a href="#0" class="popup-trigger btn-decision nadir-btn nadir-btn-red">Disconnect</a>
+	</div>
+	<div class="popup" role="alert">
+		<div class="popup-container">
+			<p>Are you sure you want to disconnect?</p>
+				<a href="#0" class="nadir-btn nadir-btn-green">Yes</a>
+				<a href="#0" class="nadir-btn nadir-btn-red">No</a>
+				<br>
+				<br>
+				<br>
+		</div> <!-- popup-container -->
+	</div> <!-- popup -->
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 	<script  src="js/index.js"></script>
 </body>
