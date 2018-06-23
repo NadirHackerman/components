@@ -1,8 +1,7 @@
 body {
-  width: 100%;
-  height: 100vh;
   background-color: #333;  
 }
+
 .container {
   margin-top: 2vh;
   display: flex;
@@ -12,19 +11,14 @@ body {
   flex-direction: row;
 }
 
+.btn-toggle {
+  text-transform: uppercase;
+}
+
 .container p, a {
   color: #fff;
 }
 
 a {
   text-decoration: underline;
-}
-
-.hide-item {
-  display:none;
-}
-
-.btn-toggle {
-  text-transform: uppercase;
-  margin: 0 auto;
 }
